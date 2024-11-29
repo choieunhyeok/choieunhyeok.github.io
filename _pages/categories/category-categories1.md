@@ -1,9 +1,9 @@
 ---
-title: "Categories1"
+title: "코딩 테스트"
 layout: category
-permalink: /categories/categories1/
+permalink: /categories/codingtest/
 author_profile: true
-taxonomy: Categories1
+taxonomy: codingtest
 sidebar:
   nav: "categories"
 ---

@@ -1,6 +1,7 @@
 /* ==========================================================================
    MIXINS
    ========================================================================== */
+@use "sass:math";
 
 %tab-focus {
   /* Default*/
@@ -9,6 +10,8 @@
   outline: 5px auto $focus-color;
   outline-offset: -2px;
 }
+
+
 
 /*
    em function
@@ -65,7 +68,7 @@
   $green: green($color);
   $blue: blue($color);
 
-  $yiq: (($red*299)+($green*587)+($blue*114))/1000;
+  $yiq: math.div((($red*299)+($green*587)+($blue*114)), 1000);
 
   @if $yiq-debug { @debug $yiq, $threshold; }
 
