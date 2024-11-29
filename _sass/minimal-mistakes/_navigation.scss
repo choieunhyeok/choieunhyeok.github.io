@@ -5,7 +5,6 @@
 /*
    Breadcrumb navigation links
    ========================================================================== */
-@use "sass:math";
 
 .breadcrumbs {
   @include clearfix;
@@ -447,7 +446,7 @@
   a {
     color: inherit;
     padding: 0 0 0 0;
-    font-size: math.div(($type-size-6 + $type-size-5), 2);
+    font-size: ($type-size-6 + $type-size-5) / 2;
     font-weight: 500;
 
     &:hover {
