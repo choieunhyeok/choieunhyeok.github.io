@@ -3,7 +3,7 @@ title: "[포스팅 테스트] 테스트"
 excerpt: "테스트"
 
 categories:
-  - codingtest
+  - 코딩 테스트
 tags:
   - [tag1, tag2]
 

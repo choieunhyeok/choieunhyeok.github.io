@@ -2,12 +2,15 @@
 main:
   - title: "Home"
     url: https://choieunhyeok.github.io/
+    newtap: false
 
   - title: "About"
     url: /about/
+    newtap: false
 
   - title: "GitHub"
-    url: https://github.com/choieunhyeok/choieunhyeok.github.io
+    url: https://github.com/choieunhyeok
+    newtap: true
 
   # - title: "Projects"
   #   url: /projects/
@@ -20,4 +23,6 @@ main:
 categories:
   - title: "코딩 테스트"
     url: /categories/codingtest/
+  - title: "카테고리 테스트"
+    url: /categories/test/
 
